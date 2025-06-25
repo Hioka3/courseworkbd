@@ -60,7 +60,7 @@ GROUP BY u.user_id;
 Создает виртуальную таблицу, которая объединяет данные о книгах и их авторах.
 
 ```sql
-SELECT * FROM mydb.view_bookauthors;
+SELECT * FROM new_schema.view_bookauthors;
 ```
 
 ---
